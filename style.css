@@ -1,0 +1,38 @@
+/* Element styles */
+
+@import url('//puzlet.org/ace/loader.css');
+/*@import url('/puzlet/ace/loader.css');*/
+
+body {
+	font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+/* Main container */
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 12pt;
+	line-height: 150%;
+}
+
+.left {
+  float: left;
+  width: 470px;
+}
+.right {
+   float: right;
+   width: 470px;
+}
+
+.clear {
+  clear:both;
+}
+
+.code-heading {
+  cursor: pointer;
+  color: blue;
+} 
+
